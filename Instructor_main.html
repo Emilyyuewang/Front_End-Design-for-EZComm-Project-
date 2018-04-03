@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="instructor_main.css">
+      
+       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+      
+      
+      
+       <!--navigation-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="Resource/img/logo.png"></a>
+ 
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Course
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Course1</a>
+          <a class="dropdown-item" href="#">Course2</a>
+          <a class="dropdown-item" href="#">Course3</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Messages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Grades</a>
+      </li>
+    </ul>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Emily  
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Profile</button>
+    <button class="dropdown-item" type="button">Log out</button>
+  </div>
+</div>
+  </div>  
+</nav>
+
+<div class="container">
+
+    <!----------navigation bar------------------->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="syllabus-tab" data-toggle="tab" href="#syllabus" role="tab" aria-controls="Syllabus" aria-selected="true">Syllabus</a>
+  </li>       
+  <li class="nav-item">
+    <a class="nav-link" id="assignment-tab" data-toggle="tab" href="#assignment" role="tab" aria-controls="assignment" aria-selected="false">Assignment</a>
+  </li>
+  
+ <li class="nav-item">
+    <a class="nav-link" id="grades-tab" data-toggle="tab" href="#grades" role="tab" aria-controls="grades" aria-selected="true">Grade</a>
+  </li>
+    
+    
+    <li class="nav-item">
+    <a class="nav-link" id="student-tab" data-toggle="tab" href="#student" role="tab" aria-controls="student" aria-selected="false">Students</a>
+  </li>
+     
+</ul>
+<div class="tab-content" id="myTabContent">
+    
+<!-------------------syllabus page---------------------->
+     <div class="tab-pane fade show active" id="syllabus" role="tabpanel" aria-labelledby="syllabus-tab">
+         
+  
+<div class="container container1">
+    <!--the course information and teacher information-->
+<div class="row courseinfo">
+    <div class="col-12 col-sm-6 col-md-8">
+        <div class="card">
+  <div class="card-header">
+   <h4> <i class="fa fa-info-circle" style="font-size:24px"></i>
+
+Course Description</h4> 
+     
+        <a href="#">
+          <i class="material-icons">mode_edit</i>
+        </a> 
+      
+      <a href="#">
+          <i class="material-icons">delete</i>
+        </a> 
+          
+        
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>Introduction to the Engineering and Computing professions, professional ethics. Overview of ECS curricula, connections among ECS fields and to the basics of sciences, other fields. Basic study, problem solving and other skills needed to succeed as an ECS major. Engineering design and quantitative methods using MATLAB. Multi-disciplinary team projects designed to replicate decision processes in real-world situations. </p>
+
+    </blockquote>
+  </div>
+</div>
+    </div>
+
+    <div class="col-6 col-md-4 teacher">
+            <div id="accordion" role="tablist">
+          <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="material-icons">perm_identity</i>
+                 Teacher Info
+                </a>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                Email:isososo@umd.edu<br>
+                Linkedin Address:...........<br>
+              </div>
+            </div>
+          </div>
+                </div>    
+        </div>
+ 
+      </div>
+    
+    <hr>
+    <!--the table and score arrangement-->
+
+       <div class="row scheduleinfo">
+           <div class="col-12 col-sm-6 col-md-8">
+               <h4><i class="fa fa-file-text-o" ></i>
+Schedule</h4>    
+      <a href="#">
+          <i class="material-icons">delete</i>
+        </a>
+               <a href="#">
+          <i class="material-icons">add</i>
+        </a>
+               <table class="table table-hover">
+                    <thead>
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Info</th>
+                </tr>
+                    </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Mon Sep 4, 2017</th>
+                  <td>Prerequisite knowledge Quiz</td>
+                    <td><a href="#">
+          <i class="material-icons">create</i>
+        </a></td>
+                   <td><a href="#">
+          <i class="material-icons">clear</i>
+        </a></td> 
+   </tr>   
+</tbody>
+    </table>
+           </div>
+    </div>
+          
+        <br>   
+    <button type="button" class="btn btn-default btn-primary "> Publish </button> 
+    <button type="button" class="btn btn-default btn-light "> Cancel
+    </button>        
+           
+ </div>
+      
+      </div>    
+<!--------------assignment page---------------->
+ 
+    <div class="tab-pane fade show active" id="assignment" role="tabpanel" aria-labelledby="assignment-tab">
+<!--arrays-->
+<div class="container container1">
+
+    <a href="#">
+          <i class="material-icons">add</i>
+        </a>
+    <table class="table table-hover">
+                    <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Due Time</th>
+                    <th scope="col">Percentage</th>
+                </tr>
+                    </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Prerequisite knowledge Quiz</th>
+                  <td>
+                    Mon Sep 4, 2017</td>
+                    <td>10%</td>
+                    <td><a href="#">
+                <i class="material-icons">create</i>
+                </a></td>
+                   <td><a href="#">
+                <i class="material-icons">clear</i>
+                </a></td> 
+                </tr>   
+             </tbody>
+    </table>
+  </div>
+</div>
+    
+    
+     <!------------grade page-------------->
+   <div class="tab-pane fade show active" id="grades" role="tabpanel" aria-labelledby="grades-tab">
+
+       <div class="container container1">
+          
+           <a href="#">
+          <i class="material-icons">add</i>
+        </a>
+        
+       <table class="table table-hover">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Assignment ID</th>
+      <th scope="col">Student ID</th>
+        <th scope="col">Student name</th>
+      <th scope="col"><i class="fa fa-pencil" style="font-size:24px"></i>Score</th>
+      <th scope="col">Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="#">
+       Assignment1 </a></th>
+      <td>1148927</td>
+      <td>Emma</td>
+      <td>80%</td>
+      <td>4.1--good</td>
+      <td><a href="#">
+          <i class="material-icons">create</i>
+        </a></td>
+                   <td><a href="#">
+          <i class="material-icons">clear</i>
+        </a></td>
+    </tr>
+  </tbody>
+</table>
+          
+</div>
+      
+       </div>       
+         
+
+    
+    
+    
+    <!-------------student page--------------->
+    <div class="tab-pane fade show active" id="student" role="tabpanel" aria-labelledby="student-tab">
+
+       <div class="container container1">
+          
+        
+       <table class="table table-hover">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Student ID</th>
+        <th scope="col">Student name</th>
+      <th scope="col">Section</th>
+              <th scope="col">Role</th>
+
+    </tr>
+  </thead>
+    <tbody>
+    <tr>
+      <th scope="row">16378</th>
+      <td>Emma</td>
+      <td>ENPM613-0101</td>
+        <td>Student</td>
+    </tr>
+    </tbody>
+           </table>
+          
+        </div>
+ </div>  
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <script src="sty.jsp"></script>
+  </body>
+</html>
+
+      
+      
+      
